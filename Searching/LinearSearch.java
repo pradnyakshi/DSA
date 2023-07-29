@@ -1,7 +1,7 @@
 //Linear search - O(n)
 import java.util.*;
 
-public class Main
+public class LinearSearch
 {
     public static int linear_search(int[] arr,int n,int key){
         for(int i=0;i<n;i++){
