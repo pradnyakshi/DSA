@@ -1,3 +1,4 @@
+//Linear search - O(n)
 import java.util.*;
 
 public class Main
