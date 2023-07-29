@@ -1,4 +1,3 @@
-//Insertion Sort - O(n^2)
 import java.util.*;
 
 public class nQueen
