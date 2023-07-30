@@ -25,7 +25,9 @@ public class InfixToPostfix
                 while(!st.isEmpty() && st.peek() != '('){
                     System.out.print(st.pop());
                 }
+		if(!st.isEmpty()){
                 st.pop();
+		}
             }else{
                 while(!st.isEmpty() && prec(st.peek()) > prec(s.charAt(i))){
                     System.out.print(st.pop());
