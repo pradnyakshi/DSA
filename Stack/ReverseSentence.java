@@ -20,7 +20,6 @@ public class ReverseSentence
     }
     
 	public static void main(String[] args) {
-		Stack<Integer> st = new Stack<>();
 		String s = "Hey, how are you doing?";
 		reverse(s);
 	}
