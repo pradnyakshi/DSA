@@ -1,5 +1,5 @@
 /******************************************************************************
-Dynamic Programming - Minimum Number of Squares(Tabulation)
+Dynamic Programming - Minimum Number of Squares(Memoization)
 Minimum number of squares whose sum equals to given number 'n'.
 *******************************************************************************/
 import java.util.*;
