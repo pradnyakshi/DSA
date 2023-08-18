@@ -1,5 +1,5 @@
 /******************************************************************************
-Dynamic Programming - Minimum Number of Squares(Memoization)
+Dynamic Programming - Minimum Number of Squares(Tabulation)
 Minimum number of squares whose sum equals to given number 'n'.
 *******************************************************************************/
 import java.util.*;
@@ -20,8 +20,8 @@ public class MinSquareMemo
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		int[] dp = new int[n+1]{-1};
-		//Arrays.fill(dp,Integer.MAX_VALUE);
+		int[] dp = new int[n+1];
+		Arrays.fill(dp,Integer.MAX_VALUE);
 		System.out.println(minSquare(n,dp));
 	}
 }
